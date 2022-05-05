@@ -1,0 +1,42 @@
+body {
+    background-image: url("../../images/isolation/isolation.png");
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.textContainer {
+    padding: 24px;
+    width: 60vw;
+    background-color: rgb(56, 56, 56);
+    opacity: 0.92;
+    color: aliceblue;
+    border-radius: 16px;
+}
+
+.eyeContainer a {
+    max-height: 20vh;
+    width: auto;
+    height: 100%;
+}
+
+.eyeContainer a img {
+    width: auto;
+    max-height: 20vh;
+    display: block;
+    margin: 0 auto;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.commentContainer {
+    padding: 24px;
+    max-height: 100vh;
+    width: 60vw;
+    background-color: rgb(56, 56, 56);
+    opacity: 0.92;
+    color: aliceblue;
+    margin:24px;
+    border-radius: 16px;
+}
